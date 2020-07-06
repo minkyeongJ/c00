@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjo <mjo@student.42seoul.kr>               +#+  +:+       +#+        */
+/*   By: mjo </var/mail/mjo>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/06 12:11:59 by mjo               #+#    #+#             */
-/*   Updated: 2020/07/06 12:18:03 by mjo              ###   ########.fr       */
+/*   Created: 2020/07/06 13:43:28 by mjo               #+#    #+#             */
+/*   Updated: 2020/07/06 13:56:49 by mjo              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_print_alphabet(void)
 {
-	write(1, &c, 1);
+	write(1, "abcdefghijklmnopqrsuvwxyz", 26);
 }
